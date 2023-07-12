@@ -1,9 +1,9 @@
 {
-  "name": "@moebius/fluent",
-  "version": "1.1.0",
+  "name": "@artegoser/fluent",
+  "version": "1.0.0",
   "description": "Better Fluent integration for JavaScript",
   "scripts": {
-    "build": "rm -rf ./dist && tsc -p ./tsconfig.lib.json",
+    "build": "tsc -p ./tsconfig.lib.json",
     "prepublishOnly": "npm run build",
     "test": ":"
   },
@@ -27,16 +27,23 @@
     "translation"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/the-moebius/fluent#readme",
+  "homepage": "https://github.com/artegoser/fluent#readme",
   "repository": "github:the-moebius/fluent",
   "bugs": {
-    "url": "https://github.com/the-moebius/fluent/issues"
+    "url": "https://github.com/artegoser/fluent/issues"
   },
   "author": {
-    "name": "Slava Fomin II",
-    "email": "slava@fomin.io",
-    "url": "https://github.com/slavafomin"
+    "name": "Artemy Egorov",
+    "email": "me@artegoser.ru",
+    "url": "https://github.com/artegoser"
   },
+  "contributors": [
+    {
+      "name": "Slava Fomin II",
+      "email": "slava@fomin.io",
+      "url": "https://github.com/slavafomin"
+    }
+  ],
   "engines": {
     "node": ">=12"
   },
@@ -47,8 +54,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@fluent/bundle": "^0.17.1",
-    "@fluent/langneg": "^0.6.1"
+    "@fluent/bundle": "^0.18.0",
+    "@fluent/langneg": "^0.6.2"
   },
   "devDependencies": {
     "@types/node": "^12.20.42",
